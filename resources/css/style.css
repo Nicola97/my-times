@@ -1,0 +1,161 @@
+.logo img
+{
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+header
+{
+  display: flex;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.logo
+{
+  display:flex;
+  border: 1px solid black;
+  width: 75%;
+}
+
+.logo span
+{
+  color: MediumAquamarine;
+  align-self: center;
+}
+
+
+nav a
+{
+ list-style-type: none;
+ display: inline-block;
+ padding: 10px 20px;
+ color: black;
+}
+
+.main
+{
+  display: flex;
+  border: 1px solid black;
+  height:100%;
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+.large
+{
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+  flex-direction:column;
+  flex-basis: auto;
+}
+
+.medium
+{
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.small
+{
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+
+.midle
+{
+  border:1px solid black;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  width:40%;
+}
+
+.end
+{
+  border:1px solid black;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  width:40%;
+}
+
+.narrative
+{
+  border:1px solid black;
+  padding-top:10px;
+  margin: 0px;
+}
+
+.lead-story
+{
+  border:1px solid black;
+  height: 300px;
+  background-image: url(../images/img-story-main.png);
+  background-repeat: no-repeat;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+}
+
+.second-story
+{
+  border:1px solid black;
+  background-image: url(../images/story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+}
+
+.third-story
+{
+  border: 1px solid black;
+  background-image: url(../images/story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.five-story
+{
+  border: 1px solid black;
+  margin: 0px;
+  background-image: url(../images/story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  height: 300px;
+}
+
+.border
+{
+  border: 1px solid black;
+  margin: 0px;
+}
