@@ -7,25 +7,26 @@
 
 header
 {
+  position:fixed;
+  top: 0px;
   display: flex;
   border-bottom: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   background-color: white;
-  z-index: 1;
+  z-index:1;
   width: 100%;
   height: 80px;
-  justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
+  background-color: white;
+  justify-content: space-between;
 }
 
 .logo
 {
   display:flex;
-  border: 1px solid black;
-  width: 75%;
+  margin-right: 12px;
 }
 
 .logo span
@@ -37,35 +38,33 @@ header
 
 nav a
 {
- list-style-type: none;
  display: inline-block;
- padding: 10px 20px;
  color: black;
+ padding-right: 40px;
+
 }
 
 .main
 {
   display: flex;
-  border: 1px solid black;
   height:100%;
   font-family: Georgia;
   font-size: 17px;
+  padding-top: 100px;
+  justify-content: space-between;
 }
 
 .large
 {
   display: flex;
   width: 630px;
-  border: 1px solid black;
-  flex-direction:column;
-  flex-basis: auto;
+  flex-direction: column;
 }
 
 .medium
 {
   display: flex;
   width: 300px;
-  border: 1px solid black;
   flex-direction: column;
 }
 
@@ -73,43 +72,60 @@ nav a
 {
   display: flex;
   width: 240px;
-  border: 1px solid black;
   flex-direction: column;
 }
 
+.small p
+{
+  border-bottom: 1px solid black;
+  margin:0px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size:12px;
+  color: Dimgray;
+  display: block;
+  padding: 11px 20px;
+}
+
+.small h2
+{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
 
 .midle
 {
-  border:1px solid black;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content:center;
+  display:flex;
   flex-direction: column;
-  width:40%;
+  margin-right: 20px;
+
 }
 
 .end
 {
-  border:1px solid black;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
-  flex-direction:column;
-  width:40%;
+  flex-direction: column;
+}
+
+.allign
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
 }
 
 .narrative
 {
-  border:1px solid black;
   padding-top:10px;
   margin: 0px;
 }
 
 .lead-story
 {
-  border:1px solid black;
   height: 300px;
   background-image: url(../images/img-story-main.png);
   background-repeat: no-repeat;
@@ -122,29 +138,29 @@ nav a
 
 .second-story
 {
-  border:1px solid black;
   background-image: url(../images/story-2.png);
+  background-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 300px;
 
 }
 
 .third-story
 {
-  border: 1px solid black;
   background-image: url(../images/story-3.png);
+  background-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 300px;
 }
 
 .five-story
 {
-  border: 1px solid black;
-  margin: 0px;
   background-image: url(../images/story-1.png);
   font-family: Georgia;
   font-weight: bold;
@@ -154,8 +170,42 @@ nav a
   height: 300px;
 }
 
-.border
+footer
 {
-  border: 1px solid black;
-  margin: 0px;
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  height: 290px;
+  flex-direction: column;
+}
+footer h2
+{
+  font-size: 16px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-right: 10px;
+}
+footer a
+{
+  color: black;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+footer p
+{
+  text-align: center;
+  display: block;
+}
+
+.info
+{
+  display:inline-block;
 }
